@@ -1,0 +1,79 @@
+body, h1, h2, p, ul, li {
+  margin: 0;
+  padding: 0;
+}
+
+/* Apply some basic styles to the page elements */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background-color: navy; /* Set the background color to navy blue */
+  color: black; /* Set the text color to black */
+}
+
+header {
+  background-color: #333;
+  padding: 10px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+section {
+  margin-bottom: 20px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+  list-style: disc;
+  margin-left: 20px;
+}
+
+footer {
+  background-color: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+/* Add your own custom styles below */
+
+/* Example: Styling for the introduction section */
+section h2 {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+}
+
+section p {
+  color: black;
+}
+
+/* Example: Styling for the achievements section */
+section ul {
+  color: black;
+}
+
+section ul li {
+  margin-bottom: 5px;
+}
+
+/* Example: Styling for the contact section */
+section h2 {
+  color: black;
+}
+
+section p {
+  color: black;
+}
+
+/* Example: Styling for the footer */
+footer p {
+  font-size: 12px;
+}
+
+/* Add more custom styles as needed */
+By updating the color property to black in the b

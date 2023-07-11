@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact information and details about me.">
+  <meta name="keywords" content="contact, information, about me">
+  <meta name="author" content="JodanCooper">
+  <!-- Jodan Cooper, CTI110-0005 -->
+  <link href="CSS.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+  <header>
+    <h1>Contact Information</h1>
+  </header>
+  
+  <main>
+    <section>
+      <form id="contact-form">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="occupation">Occupation:</label>
+        <input type="text" id="occupation" name="occupation" required>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+    <section id="submitted-info">
+      <h1> My Email: Jbcooper5@my.waketech.edu </h1>
+      <p id="name-display"></p>
+      <p id="email-display"></p>
+      <p id="occupation-display"></p>
+    </section>
+  </main>
+
+  <script>
+    // Handle form submission
+    document.getElementById("contact-form").addEventListener("submit", function(event) {
+      event.preventDefault(); // Prevent page refresh
+
+      // Retrieve form values
+      var name = document.getElementById("name").value;
+      var email = document.getElementById("email").value;
+      var occupation = document.getElementById("occupation").value;
+
+     
+
+      // Reset form inputs
+      document.getElementById("contact-form").reset();
+    });
+  </script>
+
+  <!-- This file is my own work and I typed everything manually, Cooper -->
+</body>

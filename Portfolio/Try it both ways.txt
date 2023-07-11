@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang= "em">
+
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Contact information and details about me.">
+  <meta name="keywords" content="contact, information, about me">
+  <meta name="author" content="JodanCooper">
+  <!-- Jodan Cooper, CTI110-0005 -->
+</head>
+<h1>
+<p>
+</p>
+</h1
+
+<body>
+ <h1>Hello World! I'm Jodan Cooper</h1>
+</body>
+<!This file is my own work and I typed everything manually, Cooper>
+</html>
